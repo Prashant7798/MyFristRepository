@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"><!-- Before Test -->
+  <test thread-count="5" name="Test"><!-- before Test -->
+  <groups>
+  <run>
+  
+  <include name="sanity"></include>
+  
+  </run>
+  
+  </groups>
+    <classes><!-- Before class -->
+      <class name="com.test.testng.calsses.LoginTest"></class>
+       <class name="com.test.testng.calsses.NewTest"></class>
+         
+     </classes><!-- After class -->
+  </test><!-- After Test -->
+</suite><!-- After  Suite -->
