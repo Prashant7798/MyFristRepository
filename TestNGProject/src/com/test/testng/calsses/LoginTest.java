@@ -40,7 +40,7 @@ public class LoginTest {
 		
 	}
 	
-    //sanity 2,smoke 1,regression 2
+    //sanity 2,smoke 1,regression 3
 	
 
 
